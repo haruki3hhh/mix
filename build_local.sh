@@ -24,4 +24,5 @@ mkdir build
 cmake . -B build/
 make -j`nproc` -C build/
 file build/bin/nameCollector
+cp build/bin/nameCollector ./nameCollector
 popd
